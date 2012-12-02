@@ -8,12 +8,12 @@
 Summary:	Mathematical features library
 Summary(pl.UTF-8):	analitza
 Name:		kde4-analitza
-Version:	4.9.1
+Version:	4.9.3
 Release:	1
 License:	LGPL v2
 Group:		X11/Libraries
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	fc73264a6eae997e90591d1a11a17c0c
+# Source0-md5:	31cf5d816af47633b9eb6b172fe3c6e7
 URL:		http://www.kde.org/
 BuildRequires:	automoc4
 BuildRequires:	cmake >= 2.6.3
