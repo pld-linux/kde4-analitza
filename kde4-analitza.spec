@@ -70,11 +70,16 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_libdir}/libanalitza.so.*.*.*
 %attr(755,root,root) %ghost %{_libdir}/libanalitzagui.so.?
 %attr(755,root,root) %{_libdir}/libanalitzagui.so.*.*.*
+%attr(755,root,root) %ghost %{_libdir}/libanalitzaplot.so.?
+%attr(755,root,root) %{_libdir}/libanalitzaplot.so.*.*.*
+%{_datadir}/apps/libanalitza
 
 %files devel
 %defattr(644,root,root,755)
 %{_includedir}/analitza
 %attr(755,root,root) %{_libdir}/libanalitza.so
 %attr(755,root,root) %{_libdir}/libanalitzagui.so
+%attr(755,root,root) %{_libdir}/libanalitzaplot.so
 %{_includedir}/analitzagui
+%{_includedir}/analitzaplot
 %{_libdir}/cmake/analitza
